@@ -30,7 +30,8 @@
         "symfony/routing": "^4.4 || ^5.0",
         "symfony/security": "^4.4 || ^5.0",
         "symfony/validator": "^4.4 || ^5.0",
-        "webmozart/assert": "^1.10"
+        "webmozart/assert": "^1.10",
+        "composer-runtime-api": "^2.0"
     },
     "conflict": {
         "setono/post-nord-php-sdk": "<1.1.3"
