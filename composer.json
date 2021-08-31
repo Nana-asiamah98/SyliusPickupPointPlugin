@@ -1,5 +1,5 @@
 {
-    "name": "setono-na98/sylius-pickup-point-plugin",
+    "name": "setono/sylius-pickup-point-plugin-local",
     "type": "sylius-plugin",
     "description": "An Updated Pickup point plugin for Sylius",
     "keywords": [
