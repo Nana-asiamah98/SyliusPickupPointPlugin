@@ -48,6 +48,10 @@ final class SetonoSyliusPickupPointExtension extends AbstractResourceExtension
             $loader->load('services/providers/faker.xml');
         }
 
+        if($config['local']){
+            $loader->load('services/providers/local.xml');
+        }
+
         if ($config['providers']['dao']) {
             if (!isset($bundles['SetonoDAOBundle'])) {
                 throw new LogicException('You should use SetonoDAOBundle or disable dao provider.');
