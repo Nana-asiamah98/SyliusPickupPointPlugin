@@ -1,7 +1,7 @@
 {
-    "name": "setono-custom/sylius-pickup-point-plugin-local",
+    "name": "setono/sylius-pickup-point-plugin",
     "type": "sylius-plugin",
-    "description": "An Updated Pickup point plugin for Sylius",
+    "description": "Pickup point plugin for Sylius",
     "keywords": [
         "sylius",
         "sylius-plugin"
@@ -30,8 +30,7 @@
         "symfony/routing": "^4.4 || ^5.0",
         "symfony/security": "^4.4 || ^5.0",
         "symfony/validator": "^4.4 || ^5.0",
-        "webmozart/assert": "^1.10",
-        "composer-runtime-api": "^2.0"
+        "webmozart/assert": "^1.10"
     },
     "conflict": {
         "setono/post-nord-php-sdk": "<1.1.3"
