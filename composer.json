@@ -1,5 +1,5 @@
 {
-    "name": "setono/sylius-pickup-point-plugin",
+    "name": "setono/sylius-pickup-point-plugin-custom",
     "type": "symfony-bundle",
     "description": "Pickup point plugin for Sylius",
     "keywords": [
